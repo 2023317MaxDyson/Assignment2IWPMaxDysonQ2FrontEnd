@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment 2 IWP Max Dyson Q2 Frontend </title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<h1> BVC Sport Club Event Registration </h1>
+<main id="content"> 
+<p> Submit the form by putting your ID, Full name, Adresss and Status (Student or Staff or Volunteer) </p>
+</br>
+<table>
+<tr> 
+<td>
+<label> ID: </label>
+</td>
+<td>
+<input type="number" id = "number"  required>
+</td>
+</tr>
+<tr> 
+    <td>
+<label> Full name: </label>
+   <td>
+<input type="text" id= "fullname" required>
+</td>
+</tr>
+<tr>
+    <td>
+<label> Address: </label>
+ </td>
+ <td>
+<input type="text" id="address" required>
+</td>
+</tr>
+<tr>
+<td>
+<select id="statusOptions" required>
+<option value="status"> Status </option>
+<option value="student"> Student </option>
+<option value="staff">  Staff </option>
+<option value="volunteer">  Volunteer </option>
+</select>
+</td>
+<td>
+<button id="submit"> Submit </button>
+</td>
+</tr>
+</table>
+</main>
+<div id="Registerdata"> </div>
+<script src="./script.js"> </script>
+</body>
+</html>
