@@ -9,7 +9,7 @@
 
 // URL for the fee
 
-const feeURL =  'http://localhost:6954/fee';
+const feeURL =  'https://assignment2iwpmdq2backend.onrender.com/fee';
 
 $(document).ready(function(){
   
