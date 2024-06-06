@@ -61,7 +61,7 @@ $.getJSON(feeURL,(getfeeURL)=> {
     if (statusOptions === "student"){
   
 
-
+         $("#Registerdata").hide();
         $("#Registerdata").append(` <h1> Confirm Notices </h1>  Student fee: <p> $${getfeeURL.student}  </p>   `);
             
 
